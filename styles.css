@@ -1,0 +1,40 @@
+ body {
+     background: rgb(255, 255, 255);
+     color: rgb(8, 8, 8)50, 245, 245;
+     font-family: "Sofadi One", system-ui;
+ }
+
+ heard {
+     border-bottom: solid 7px rgb(0, 0, 0);
+     padding: 10px;
+     font-size: 40px
+ }
+ .videossemelhantes  {
+    background-color: white;
+ }
+ 
+ Section {
+
+     background:
+         -webkit-radial-gradient(rgb(221, 175, 47) 15%, transparent 16%),
+         -webkit-radial-gradient(#ecde16 15%, transparent 16%),
+         rgb(255, 251, 0);
+     background-position: 0 0, 160px 160px;
+     font-size: 21px;
+     -webkit-background-size: 160px 160px;
+     -moz-background-size: 160px 160px;
+     background-size: 300px 300px;
+     padding-bottom: 80px;
+     padding-top: 80px;
+     display: flex;
+     justify-content: center;
+ }
+
+ img {
+     height: 200px;
+ }
+
+ .categoria-videos {
+     display: flex;
+     overflow-x: auto;
+ }
